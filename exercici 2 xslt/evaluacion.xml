@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<evaluacion>
+	<alumno repite="si">
+		<nombre>Rafael</nombre>
+		<apellidos>Pardo Borrajo</apellidos>
+		<telefono>625835465</telefono>
+		<notas>
+			<practicas>7</practicas>
+			<examen>8</examen>
+		</notas>
+	</alumno>
+	<alumno>
+		<nombre>Ramon</nombre>
+		<apellidos>Conde Perez</apellidos>
+		<telefono>664141424</telefono>
+		<notas>
+			<practicas>8</practicas>
+			<examen>9</examen>
+		</notas>
+	</alumno>
+	<alumno>
+		<nombre>Manuela</nombre>
+		<apellidos>Gonzalez Tejero</apellidos>
+		<telefono>667755747</telefono>
+		<notas>
+			<practicas>9</practicas>
+			<examen>6</examen>
+		</notas>
+	</alumno>
+	<alumno>
+		<nombre>Patricia</nombre>
+		<apellidos>Otero Lopez</apellidos>
+		<telefono>647398299</telefono>
+		<notas>
+			<practicas>5</practicas>
+			<examen>3</examen>
+		</notas>
+	</alumno>
+	<alumno>
+		<nombre>Oscar</nombre>
+		<apellidos>Garcia Blanco</apellidos>
+		<telefono>678934521</telefono>
+		<notas>
+			<practicas>2</practicas>
+			<examen>4</examen>
+		</notas>
+	</alumno>
+	<alumno repite="si">
+		<nombre>Pablo</nombre>
+		<apellidos>Esteban Garcia</apellidos>
+		<telefono>643278396</telefono>
+		<notas>
+			<practicas>7</practicas>
+			<examen>3</examen>
+		</notas>
+	</alumno>
+</evaluacion>

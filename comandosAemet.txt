@@ -1,0 +1,30 @@
+xmllint --shell aemet.xml
+
+1.
+cat /root/prediccion/dia[@fecha="2022-01-30"]/temperatura/maxima
+cat /root/prediccion/dia[@fecha="2022-01-30"]/temperatura/minima
+
+
+2. 
+cat /root/prediccion/dia[@fecha="2022-01-28"]/temperatura/dato[@hora="06"]
+cat /root/prediccion/dia[@fecha="2022-01-28"]/temperatura/dato[@hora="06"]/text() 
+
+
+3.
+cat /root/prediccion/dia[@fecha="2022-01-28"]/estado_cielo[@periodo="00-24"]/text()
+
+
+4.
+cat /root/prediccion/dia[@fecha="2022-01-29"]/cota_nieve_prov[@periodo="00-24"]/text()
+
+
+5.
+cat //dia[@fecha="2022-02-01"]/humedad_relativa
+
+
+6. 
+cat //dia/uv_max
+
+
+7. 
+cat //dia/@fecha
