@@ -12,19 +12,25 @@
                 <th style="text-align:center">Nota Práctica</th>
                 <th style="text-align:center">Nota Examen</th>
                 <th style="text-align:center">Nota Total</th>
-
             </tr>
             <xsl:for-each select="alumno">
-            <xsl:sort select="apellidos" order="ascending"/>
+                <xsl:sort select="apellidos" order="ascending"/>
             
-            <tr>
-                <th><xsl:value-of select="nombre"></xsl:value-of></th>
-                <th><xsl:value-of select="apellidos"></xsl:value-of></th>
-                <th><xsl:value-of select="telefono"></xsl:value-of></th>
-                <th><xsl:value-of select="@repite"></xsl:value-of></th>
-
-                <xsl:apply-templates select="notas"/>
-            </tr>
+                <tr>
+                    <th><xsl:value-of select="nombre"></xsl:value-of></th>
+                    <th><xsl:value-of select="apellidos"></xsl:value-of></th>
+                    <th><xsl:value-of select="telefono"></xsl:value-of></th>
+                    <th><xsl:value-of select="@repite"></xsl:value-of></th>
+                    
+                    <xsl:apply-templates select="notas"/>
+                    <th>
+                        <img>
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="img/src"/>
+                            </xsl:attribute>
+                        </img>
+                    </th>
+                </tr>
             </xsl:for-each>
         </table>
     </body>

@@ -8,6 +8,9 @@
 			<practicas>7</practicas>
 			<examen>8</examen>
 		</notas>
+		<img>
+			<src>cara1.jfif</src>
+		</img>
 	</alumno>
 	<alumno>
 		<nombre>Ramon</nombre>
