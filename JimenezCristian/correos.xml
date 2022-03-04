@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<correos>
+	<carta certificada="SI" urgente="SI">
+		<destinatario>
+			<nombre>Clara Pujades</nombre>
+			<direccion>Castellana 345 3ºB</direccion>
+			<cp>28046</cp>
+			<ciudad>Madrid</ciudad>
+			<provincia>Madrid</provincia>
+			<pais>España</pais>
+		</destinatario>
+		<remite>
+			<nombre>Alicia Vázquez</nombre>
+			<direccion>Carrer d'Aiguablava, 121</direccion>
+			<cp>08033</cp>
+			<ciudad>Barcelona</ciudad>
+			<provincia>Barcelona</provincia>
+			<pais>España</pais>
+		</remite>
+		<fechaExpedicion dia="17" mes="03" anyo="2022"/>
+		<fechaEntrega dia="20" mes="03" anyo="2022"/>
+		<peso>350</peso>
+		<precio>1,2</precio>
+	</carta>
+	<carta certificada="SI" urgente="NO">
+		<destinatario>
+			<nombre>Jon Smith</nombre>
+			<direccion>767 5th Ave</direccion>
+			<cp>10153</cp>
+			<ciudad>New York</ciudad>
+			<provincia>NY</provincia>
+			<pais>USA</pais>
+		</destinatario>
+		<remite>
+			<nombre>Montse Madridejos</nombre>
+			<direccion>Carrer d'Aiguablava, 121</direccion>
+			<cp>08033</cp>
+			<ciudad>Barcelona</ciudad>
+			<provincia>Barcelona</provincia>
+			<pais>España</pais>
+		</remite>
+		<fechaExpedicion dia="21" mes="03" anyo="2022"/>
+		<fechaEntrega dia="0" mes="0" anyo="0"/>
+		<peso>800</peso>
+		<precio>5,6</precio>
+	</carta>
+	<carta certificada="NO" urgente="SI">
+		<destinatario>
+			<nombre>Tony Stark</nombre>
+			<direccion>Passeig Marítim, 185</direccion>
+			<cp>08860</cp>
+			<ciudad>Castelldefels</ciudad>
+			<provincia>Barcelona</provincia>
+			<pais>España</pais>
+		</destinatario>
+		<remite>
+			<nombre>Departament Ensenyament</nombre>
+			<direccion></direccion>
+			<cp>08009</cp>
+			<ciudad>Barcelona</ciudad>
+			<provincia>Barcelona</provincia>
+			<pais>España</pais>
+		</remite>
+		<fechaExpedicion dia="18" mes="03" anyo="2022"/>
+		<fechaEntrega dia="0" mes="0" anyo="0"/>
+		<peso>120</peso>
+		<precio>4,5</precio>
+	</carta>
+</correos>

@@ -1,0 +1,32 @@
+
+
+table.carta {
+    width: 100%;
+}
+table{
+    margin: 1%;
+}
+
+tr {
+    border: 2px;
+
+}
+
+td, th {
+    vertical-align: text-top;
+    text-align: left;
+    padding: 5px;
+    border: 0px;
+}
+
+div {
+    display: block;
+    width: 45%;
+ 
+}
+
+
+.titulo {
+    text-transform: uppercase;
+    background-color:lightgray;
+}
