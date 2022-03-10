@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<canciones>
+    <archivo>
+        <cancion>
+            Feeling Good
+        </cancion>
+        <artista>
+            Nina Simeone
+        </artista>
+        <disco>
+            I put a spell on you
+        </disco>
+    </archivo>
+    <archivo>
+        <cancion>
+            Leave a Light On
+        </cancion>
+        <artista>
+            Tom Walker
+        </artista>
+        <disco>
+            Leave a Light On
+        </disco>
+    </archivo>
+    <archivo>
+        <cancion>
+            You and Me
+        </cancion>
+        <artista>
+            Meure
+        </artista>
+        <disco>
+            single
+        </disco>
+    </archivo>
+</canciones>
